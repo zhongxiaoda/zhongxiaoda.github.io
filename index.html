@@ -1,1 +1,13 @@
-new Date()
+<html>
+    <head>
+
+    </head>
+    <body>
+        <div id="datetime"></div>
+        <script>
+            setInterval(() => {
+                document.getElementById("datetime").innerHTML(new Date().toLocaleDateString)
+            }, 1000);
+        </script>
+    </body>
+</html>
